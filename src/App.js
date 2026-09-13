@@ -15,7 +15,7 @@ function useData() {
   const [tag, setTag] = useState(initTag || 'all');
   const [query, setQuery] = useState('');
   const [subMenu] = useState([
-    { title: '我的收藏', tag: '__star__' },
+    { title: '收藏', tag: '__star__' },
     { title: '全部', tag: 'all' },
     { title: '前端', tag: '前端' },
     { title: '后端', tag: '后端' },
